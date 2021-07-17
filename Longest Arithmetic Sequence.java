@@ -45,3 +45,27 @@ class Solution {
         return longest;
     }
 }
+
+/*
+Given an array of integers A, A returns the length of the longest sequence of arithmetic.
+
+Recall A sequence is a list of A [i_1], A [i_2], ..., A [i_k] where 0 <= i_1 <i_2 <... <i_k <= A.length - 1. And if B [i + 1] - B [i] (0 <= i <B.length - 1) values ​​are identical, then B is a sequence of arithmetic.
+
+Example 1
+Input: [3,6,9,12]
+Output: 4
+Explanation:
+is the tolerance of the entire array 3 of the arithmetic sequence.
+
+Example 2
+Input: [9,4,7,2,10]
+Output: 3
+Explanation:
+is the longest arithmetic sequence [4,7,10].
+
+Example 3
+Input: [20,1,15,3,10,5,8]
+Output: 4
+Explanation:
+is the longest arithmetic sequence [20,15,10,5].
+*/
