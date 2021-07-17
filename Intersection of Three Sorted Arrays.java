@@ -1,8 +1,8 @@
 // leetcode 1213 Intersection of Three Sorted Arrays
 
 /*
-time: O(n)
-space: O(n)
+Time: O(|arr1| + |arr2| + |arr3|)
+Space: O(min(|arr1|, |arr2|, |arr3|))
 */
 
 class Solution {
