@@ -25,3 +25,21 @@ class Solution {
         return res;
     }
 }
+
+/*
+Input: "abcd"
+Output: 0
+Explanation: There is no repeating substring.
+
+Input: "abbaba"
+Output: 2
+Explanation: The longest repeating substrings are "ab" and "ba", each of which occurs twice.
+
+Input: "aabcaabdaab"
+Output: 3
+Explanation: The longest repeating substring is "aab", which occurs <wyn>3</wyn> times.
+
+Input: "aaaaa"
+Output: 4
+Explanation: The longest repeating substring is "aaaa", which occurs twice.
+*/
