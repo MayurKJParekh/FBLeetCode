@@ -1,8 +1,8 @@
 //leetcode 133 Clone Graph
 
 /*
-time: O()
-space: O()
+Time: O(|V| + |E|)
+Space: O(|V|)
 */
 
 public class Solution {
