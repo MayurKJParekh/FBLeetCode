@@ -1,8 +1,8 @@
 //leetcode 336 Palindrome Pairs
 
 /*
-time: O()
-space: O()
+time: O(nk^2)
+space: O(nk)
 */
 
 class Solution {
