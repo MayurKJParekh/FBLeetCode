@@ -2,8 +2,8 @@
 
 
 /*
-time: O()
-space: O()
+time: O(n)
+space: O(1)
 */
 public class Solution extends Reader4 {
     /**
