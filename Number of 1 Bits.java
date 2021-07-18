@@ -1,8 +1,8 @@
 //leetcode 191 Number of 1 Bits
 
 /*
-time: O()
-space: O()
+time: O(32)
+space: O(1)
 */
 
 public class Solution {
