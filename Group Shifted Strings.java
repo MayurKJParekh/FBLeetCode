@@ -29,3 +29,12 @@ class Solution {
 		return key;
 	}
 }
+/*
+Input  : str[] = {"acd", "dfg", "wyz", "yab", "mop",
+                 "bdfh", "a", "x", "moqs"};
+
+Output : a x
+         acd dfg wyz yab mop
+         bdfh moqs
+All shifted strings are grouped together.
+*/
