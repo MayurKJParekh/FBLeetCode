@@ -1,8 +1,8 @@
 //leetcode 323 Number of Connected Components in an Undirected Graph
 
 /*
-time: O()
-space: O()
+Time: O(|V| + |E|)
+Space: O(|V| + |E|)
 */
 union find
 class Solution {
