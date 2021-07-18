@@ -1,8 +1,8 @@
 //leetcode 137 Single Number II
 
 /*
-time: O()
-space: O()
+time: O(n)
+space: O(1)
 */
 public class Solution {
     public int singleNumber(int[] nums) {
