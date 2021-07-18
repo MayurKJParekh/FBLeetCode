@@ -1,8 +1,8 @@
 //leetcode 282 Expression Add Operators
 
 /*
-time: O()
-space: O()
+Time: O(n4^{n - 1})
+Space: O(n^2)
 
 This problem has a lot of edge cases to be considered:
 
