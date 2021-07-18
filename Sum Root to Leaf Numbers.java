@@ -5,18 +5,26 @@ time: O(n)
 space: O(h)
 */
 
+class Solution {
+  public int sumNumbers(TreeNode root) {
+    dfs(root, 0);
 
-public class Solution {
-    public int sumNumbers(TreeNode root) {
-        return helper(root, 0);
+    return ans;
+  }
+
+  private int ans = 0;
+
+  private void dfs(TreeNode root, int path) {
+    if (root == null)
+      return;
+    if (root.left == null && root.right == null) {
+      ans += path * 10 + root.val;
+      return;
     }
 
-    public int helper(TreeNode root, int curSum) {
-    	if (root == null) return 0;
-        curSum = curSum * 10 + root.val;
-        if (root.left == null && root.right == null) return curSum;
-        return helper(root.left, curSum) + helper(root.right, curSum);
-    }
+    dfs(root.left, path * 10 + root.val);
+    dfs(root.right, path * 10 + root.val);
+  }
 }
 
 /*
