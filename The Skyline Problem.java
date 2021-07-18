@@ -1,8 +1,8 @@
 //leetcode 218 The Skyline Problem
 
 /*
-time: O()
-space: O()
+time: O(nlogn)
+space: O(n)
 */
 
 class Solution {
