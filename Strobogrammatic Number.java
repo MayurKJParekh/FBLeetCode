@@ -1,8 +1,8 @@
 //leetcode 246 Strobogrammatic Number
 
 /*
-time: O()
-space: O()
+time: O(n)
+space: O(10) -> O(1)
 */
 
 public class Solution {
